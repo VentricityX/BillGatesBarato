@@ -1,0 +1,99 @@
+body {
+margin: 0;
+padding-top: 800px;
+text-align: center;    
+}
+.profile {
+    border-radius: 50%;
+}
+#welcome {
+    position:absolute;
+    bottom: 0;
+    background: linear-gradient(#00ffaa 0%, #64ae27 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+h1 {
+font-size: 40px;   
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: 300; 
+}
+#name {
+    font-size: 50;
+    font-family: 'Comic Neue', cursive;
+}
+h2 {
+    font-size: 30px;
+    font-weight: 300;
+    font-family: monospace;
+}
+#bio {
+    font-family: 'Comic Neue', cursive;
+    padding: 50px;
+}
+.line {
+    height: 6px;
+    background-color: black;
+    width: 60px;
+    margin: 8px auto;
+}
+.parallax-inner {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.menu{
+    
+    list-style: none;
+    position: fixed;
+    top: 10px;
+    right: 575px;
+    z-index: 10;
+    cursor: pointer;
+    background:#ffffff;
+    
+   
+
+}
+.links {
+ 
+display:inline;
+    color:rgb(0, 0, 0);
+    float: left;
+    padding-top: 5px;
+    padding-right: 9px;
+    padding-left: 9px;
+    padding-bottom: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+#writings a{
+
+text-decoration: underline !important;
+color:rgb(255, 0, 0) !important;
+
+}
+
+
+contact_1h3 {
+display:inline;
+}
+
+
+
+
+
+
+
+
+
+
+
